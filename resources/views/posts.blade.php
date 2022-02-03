@@ -74,7 +74,7 @@
 		<p class="text-center fs-4">No post found</p>
 	@endif
 	
-	<div class="d-flex justify-content-end">
+	<div class="d-flex justify-content-end background-color-white">
 		<!-- intuk make ini edit dulu App\Providers\AppServiceProvider -->
 		{{ $posts->links() }}
 	</div>
