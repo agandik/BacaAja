@@ -36,7 +36,7 @@
             <input type="password" name="password" class="form-control" id="password" required placeholder="Password">
             <label for="password" required>Password</label>
           </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+          <button class="w-100 btn btn-lg btn-color" type="submit">Login</button>
         </form>
         <small class="d-block text-center mt-3">Belum memiliki akun? <a href="/register">Registrasi Sekarang!</a></small>
       </main>
