@@ -10,7 +10,7 @@
             <a class="nav-link {{ Request::is('/')?'active':'' }}" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ Request::is('posts')?'active':'' }}" href="/posts">Blog</a>
+            <a class="nav-link {{ Request::is('posts','post*')?'active':'' }}" href="/posts">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link {{ Request::is('categories')?'active':'' }}" href="/categories">Categories</a>
